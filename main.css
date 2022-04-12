@@ -1,0 +1,57 @@
+body {
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  height: 200px;
+}
+
+.set_figure {
+  width: 140px;
+  height: 25px;
+  border: 1px solid #5a5a5a;
+  font-size: 16px;
+  color: #000000;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0;
+}
+input {
+  background-color: white;
+  border: 1px solid #5a5a5a;
+  border-radius: 5px;
+}
+.sel-input {
+  width: 200px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+.figure {
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  text-align: center;
+}
+
+.squere {
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+}
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+}
+.rectangle {
+  height: 100px;
+  width: 200px;
+  background-color: #000000;
+}
